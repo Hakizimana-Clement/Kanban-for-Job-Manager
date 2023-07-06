@@ -1,5 +1,188 @@
+/* layout */
+:root {
+  --primary-color: #fefefe;
+  --secondary-colorDark: #7486ec;
+  --secondary-color: #d4dbf8;
+  --third-colorDark: #fe7d22;
+  --third-color: #fed7ba;
+  --fourth-colorDark: #48d0d0;
+  --third-colordd: #c9f1f0;
+  --hover-colord: #f8f8fa;
+  --background-color: #f0f1f5;
+  --global-height: 100vh;
+  --text-color: #29292a;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: var(--primary-color);
+  /* background-color: rgba(0, 0, 255, 0.445); */
+  /* height: 100vh; */
+}
+/* //////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////// Container-menu//////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+
+.container {
+  /* width: 100%; */
+  /* background-color: #afafaf; */
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 4fr;
+  /* grid-gap: 1rem; */
+  /* grid-template-columns: 100px 100px 100px; */
+  /* grid-template-rows: 100px 100px; */
+  /* padding-top: 1rem; */
+}
+/* layout */
+
+.container--menu_icon,
+.container--job-title,
+.container--main-section {
+  /* height: 100vh; */
+  /* height: 8px; */
+  padding-top: 6%;
+}
+.container--menu {
+  /* width: 300px; */
+  height: 300px;
+  background-color: #66339917;
+  height: var(--global-height);
+}
+
+.container--main-section {
+  background-color: #fe7e22a8;
+  height: var(--global-height);
+  /* width: 300px; */
+  /* height: 300px; */
+}
+/* icon */
+.container--menu_icon {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* background-color: burlywood; */
+  height: var(--global-height);
+}
+
+.container--menu_icon a {
+  display: flex;
+  justify-content: center;
+
+  /* align-content: flex-end; */
+  /* align-items: space-between; */
+  margin: 1% 0;
+  text-decoration: none;
+}
+
+.container--menu_icon > a {
+  margin-bottom: 6rem;
+  margin-top: 13%;
+}
+.container--menu_icon img {
+  width: 60%;
+  height: 100%;
+}
+.icons {
+  /* background-color: #7486ec; */
+  margin-bottom: 10rem;
+  margin-bottom: auto;
+}
+
+.icons a {
+  padding-bottom: 40%;
+}
+.icon-color {
+  color: #bababa;
+}
+.icon-add {
+  border-radius: 5px;
+  background-color: var(--secondary-colorDark);
+  color: white;
+}
+/* //////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////// Container job section //////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+
+.container--job-title {
+  /* width: 300px; */
+  /* height: 300px; */
+  background-color: rgba(51, 70, 153, 0.616);
+  height: var(--global-height);
+}
+
+.container--job-title_heading {
+  background-color: rgba(165, 42, 42, 0.274);
+  padding: 0px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.container--job-title_heading a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.container--job-title_body {
+  background-color: var(--primary-color);
+  padding: 7% 0 7% 0.9rem;
+  color: #646464;
+}
+
+.container--job-title_body h4 {
+  margin-bottom: 3%;
+}
+/*This is selected part on senior java manager */
+.selected {
+  background-color: #f8f8fa;
+}
+
+/* tablet resolution */
+@media (601px<= width <= 992px) {
+  body {
+    background-color: rgba(0, 0, 255, 0.445);
+  }
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////// Container-menu//////////////////////////// */
+  /* //////////////////////////////////////////////////////////////////////// */
+  .container {
+    grid-template-columns: 0.6fr 2fr 3fr;
+  }
+
+  .container--menu_icon img {
+    width: 40%;
+    height: 100%;
+  }
+
+  /* .container--menu_icon {
+    height: 700px;
+  } */
+}
+
+/* mobile reslution */
+@media (width <= 600px) {
+  body {
+    background-color: rgba(0, 128, 0, 0.349);
+
+    /* height: 43vh; */
+  }
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////// Container-menu//////////////////////////// */
+  /* //////////////////////////////////////////////////////////////////////// */
+  .container {
+    grid-template-columns: 0.7fr 2fr 3fr;
+  }
+
+  .container--menu_icon img {
+    width: 40%;
+    height: 100%;
+  }
+
+  /* .container--menu_icon {
+    height: 43vh;
+    /* overflow: hidden; */
 }
