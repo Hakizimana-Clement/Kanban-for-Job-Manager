@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
     <!-- google icon -->
     <link
       rel="stylesheet"
@@ -40,301 +39,662 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
 
+    <link rel="stylesheet" href="/index.css" />
     <title>Job manager Kanban</title>
   </head>
   <body>
-    <main class="container">
-      <!-- part 1 -->
-      <div class="container--menu">
-        <div class="container--menu_icon">
-          <!-- icon 1 -->
-          <a href="#">
-            <!-- <i class="fa-solid fa-bars menu-icon_bars"></i> -->
-            <!-- <i class="fa-solid fa-bars"></i> -->
+    <!-- avbar for mobile resolution -->
+    <img src="./images/icon-0.png" alt="toggle-menu" class="main-menu-icon" />
+    <div class="menu">
+      <div class="menu-containerr">
+        <img src="./images/icon-0.png" alt="toggle-menu" />
+        <!-- ////////// Part 1 //////////// -->
+        <div class="menu-container">
+          <div class="menu-siderbar">
+            <div class="container--menu">
+              <div class="container--menu_icon">
+                <!-- icon 1 -->
+                <a href="#" class="first">
+                  <!-- <i class="fa-solid fa-bars menu-icon_bars"></i> -->
+                  <!-- <i class="fa-solid fa-bars"></i> -->
 
-            <img src="./images/icon-0.png" alt="menu-icon" />
-          </a>
+                  <img src="./images/icon-0.png" alt="menu-icon" />
+                </a>
 
-          <!-- <i class="fa-light fa-book-open"></i> -->
-          <div class="icons">
-            <a href="#">
-              <!-- <span class="material-symbols-outlined" style="color: #bababa">
+                <!-- <i class="fa-light fa-book-open"></i> -->
+                <div class="icons">
+                  <a href="#">
+                    <!-- <span class="material-symbols-outlined" style="color: #bababa">
                 import_contacts
               </span> -->
-              <!-- <i class="fa-light fa-book-open"></i> -->
-              <img src="./images/icon-4.png" alt="icon" />
-            </a>
-            <a href="#">
-              <img src="./images/icon-1.png" alt="icon" />
-            </a>
-            <a href="#"> <img src="./images/icon-3.png" alt="icon" /> </a>
-            <a href="#"> <img src="./images/icon-4.png" alt="icon" /> </a>
-            <a href="#">
-              <img src="./images/icon-5.png" alt="icon" />
-            </a>
+                    <!-- <i class="fa-light fa-book-open"></i> -->
+                    <img src="./images/icon-4.png" alt="icon" />
+                  </a>
+                  <a href="#">
+                    <img src="./images/icon-1.png" alt="icon" />
+                  </a>
+                  <a href="#"> <img src="./images/icon-3.png" alt="icon" /> </a>
+                  <a href="#"> <img src="./images/icon-4.png" alt="icon" /> </a>
+                  <a href="#">
+                    <img src="./images/icon-5.png" alt="icon" />
+                  </a>
 
-            <a href="#">
-              <img src="./images/icon-6.png" alt="icon" />
-            </a>
-            <a href="#">
-              <img src="./images/icon-7.png" alt="icon" />
-            </a>
+                  <a href="#">
+                    <img src="./images/icon-6.png" alt="icon" />
+                  </a>
+                  <a href="#">
+                    <img src="./images/icon-7.png" alt="icon" />
+                  </a>
+                </div>
+                <a href="#" class="last">
+                  <img src="./images/icon-8.png" alt="icon" />
+                </a>
+              </div>
+            </div>
           </div>
-          <a href="#" class="last">
-            <img src="./images/icon-8.png" alt="icon" />
-          </a>
         </div>
       </div>
 
       <!-- part 2 -->
-
-      <div class="container--job-title">
-        <div class="container--job-title_heading">
-          <div class="container--job-title_heading--title">
-            <a href="#">
-              <h2>Jobs</h2>
-            </a>
-          </div>
-          <div class="container--job-title_heading--title-icon">
-            <a href="#">
-              <span class="material-symbols-outlined"> search </span>
-            </a>
-            <a href="#">
-              <span class="material-symbols-outlined icon-add"> add </span>
-            </a>
-          </div>
-        </div>
-        <hr class="container--job-title_line" />
-        <div class="container--job-title_body_section">
-          <div class="container--job-title_body">
-            <a href="#">
-              <h4>Manager</h4>
-              <p>2000$</p>
-            </a>
-          </div>
-          <div class="container--job-title_body">
-            <a href="#">
-              <h4>UI/UX Designer</h4>
-              <p>3500$</p>
-            </a>
-          </div>
-          <div class="container--job-title_body selected">
-            <a href="#">
-              <h4>Senior java Developer</h4>
-              <p>3000$ - 4000$</p>
-            </a>
-          </div>
-          <div class="container--job-title_body">
-            <a href="#">
-              <h4>Graphic Designer</h4>
-              <p>1500$ - 2500$</p>
-            </a>
-          </div>
-          <div class="container--job-title_body">
-            <a href="#">
-              <h4>Account Manager</h4>
-              <p>1200$ - 2000$</p>
-            </a>
-          </div>
-          <div class="container--job-title_body">
-            <a href="#">
-              <h4>3D Designer</h4>
-              <p>2500$ - 5000$</p>
-            </a>
-          </div>
-        </div>
-        <p class="container--job-title_body_text">Manage jobs</p>
-      </div>
-
-      <!-- part 3 -->
-      <div class="container--main-section">
-        <div class="container--main-section_heading">
-          <h2>Senior Java Developer</h2>
-          <div class="container--main-section_heading_icon">
-            <a href="#">
-              <span class="material-symbols-outlined delete-icon">
-                delete
-              </span>
-            </a>
-            <a href="#"
-              ><span class="material-symbols-outlined edit-icon">
-                edit
-              </span></a
-            >
-
-            <div class="container--main-section_icon2">
+      <div class="menu-container-main">
+        <!-- Part 2 -->
+        <div class="container--job-title">
+          <div class="container--job-title_heading">
+            <div class="container--job-title_heading--title">
               <a href="#">
-                <span class="material-symbols-outlined add-person-icon">
-                  person_add
-                </span>
+                <h2>Jobs</h2>
+              </a>
+            </div>
+            <div class="container--job-title_heading--title-icon">
+              <a href="#">
+                <span class="material-symbols-outlined"> search </span>
+              </a>
+              <a href="#">
+                <span class="material-symbols-outlined icon-add"> add </span>
+              </a>
+            </div>
+          </div>
+          <hr class="container--job-title_line" />
+          <div class="container--job-title_body_section">
+            <div class="container--job-title_body">
+              <a href="#">
+                <h4>Manager</h4>
+                <p>2000$</p>
+              </a>
+            </div>
+            <div class="container--job-title_body">
+              <a href="#">
+                <h4>UI/UX Designer</h4>
+                <p>3500$</p>
+              </a>
+            </div>
+            <div class="container--job-title_body selected">
+              <a href="#">
+                <h4>Senior java Developer</h4>
+                <p>3000$ - 4000$</p>
+              </a>
+            </div>
+            <div class="container--job-title_body">
+              <a href="#">
+                <h4>Graphic Designer</h4>
+                <p>1500$ - 2500$</p>
+              </a>
+            </div>
+            <div class="container--job-title_body">
+              <a href="#">
+                <h4>Account Manager</h4>
+                <p>1200$ - 2000$</p>
+              </a>
+            </div>
+            <div class="container--job-title_body">
+              <a href="#">
+                <h4>3D designer</h4>
+                <p>2500$ - 5000$</p>
+              </a>
+            </div>
+
+            <div class="container--job-title_body">
+              <button>Manage jobs</button>
+            </div>
+          </div>
+          <!-- <p class="container--job-title_body_text">Manage jobs</p> -->
+        </div>
+      </div>
+    </div>
+    <!-- ////////////////////// -->
+    <!-- ////////////////////// -->
+    <!-- ////////// Part 2 //////////// -->
+
+    <!-- ////////////////////// -->
+
+    <div class="container">
+      <!-- Part 1 -->
+      <div class="item item-1">
+        <div class="container--menu">
+          <div class="container--menu_icon">
+            <!-- icon 1 -->
+            <a href="#" class="first">
+              <!-- <i class="fa-solid fa-bars menu-icon_bars"></i> -->
+              <!-- <i class="fa-solid fa-bars"></i> -->
+
+              <img src="./images/icon-0.png" alt="menu-icon" />
+            </a>
+
+            <!-- <i class="fa-light fa-book-open"></i> -->
+            <div class="icons">
+              <a href="#">
+                <!-- <span class="material-symbols-outlined" style="color: #bababa">
+                import_contacts
+              </span> -->
+                <!-- <i class="fa-light fa-book-open"></i> -->
+                <img src="./images/icon-4.png" alt="icon" />
+              </a>
+              <a href="#">
+                <img src="./images/icon-1.png" alt="icon" />
+              </a>
+              <a href="#"> <img src="./images/icon-3.png" alt="icon" /> </a>
+              <a href="#"> <img src="./images/icon-4.png" alt="icon" /> </a>
+              <a href="#">
+                <img src="./images/icon-5.png" alt="icon" />
               </a>
 
-              <p>Invite candidate</p>
+              <a href="#">
+                <img src="./images/icon-6.png" alt="icon" />
+              </a>
+              <a href="#">
+                <img src="./images/icon-7.png" alt="icon" />
+              </a>
             </div>
+            <a href="#" class="last">
+              <img src="./images/icon-8.png" alt="icon" />
+            </a>
           </div>
         </div>
-        <div
-          class="container--main-section--job-title_intro container--job-title_intro"
-        >
-          <a href="#" class="Kanban-selected"> <h4>Kanban board</h4> </a
-          ><a href="#" class="Kanban-text">
-            <h4>Job info</h4>
-          </a>
+      </div>
+
+      <!-- Part 2 -->
+      <div class="item item-2">
+        <div class="container--job-title">
+          <div class="container--job-title_heading">
+            <div class="container--job-title_heading--title">
+              <a href="#">
+                <h2>Jobs</h2>
+              </a>
+            </div>
+            <div class="container--job-title_heading--title-icon">
+              <a href="#">
+                <span class="material-symbols-outlined"> search </span>
+              </a>
+              <a href="#">
+                <span class="material-symbols-outlined icon-add"> add </span>
+              </a>
+            </div>
+          </div>
+          <hr class="container--job-title_line" />
+          <div class="container--job-title_body_section">
+            <div class="container--job-title_body">
+              <a href="#">
+                <h4>Manager</h4>
+                <p>2000$</p>
+              </a>
+            </div>
+            <div class="container--job-title_body">
+              <a href="#">
+                <h4>UI/UX Designer</h4>
+                <p>3500$</p>
+              </a>
+            </div>
+            <div class="container--job-title_body selected">
+              <a href="#">
+                <h4>Senior java Developer</h4>
+                <p>3000$ - 4000$</p>
+              </a>
+            </div>
+            <div class="container--job-title_body">
+              <a href="#">
+                <h4>Graphic Designer</h4>
+                <p>1500$ - 2500$</p>
+              </a>
+            </div>
+            <div class="container--job-title_body">
+              <a href="#">
+                <h4>Account Manager</h4>
+                <p>1200$ - 2000$</p>
+              </a>
+            </div>
+            <div class="container--job-title_body">
+              <a href="#">
+                <h4>3D designer</h4>
+                <p>2500$ - 5000$</p>
+              </a>
+            </div>
+
+            <div class="container--job-title_body">
+              <button>Manage jobs</button>
+            </div>
+          </div>
+          <!-- <p class="container--job-title_body_text">Manage jobs</p> -->
         </div>
-        <hr class="container--main-section--job-title_intro_line" />
-        <div class="container--main-section-data">
-          <div class="container--main-section-data_item1">
-            <!-- new section -->
-            <div class="container--main-section-rating_star">
-              <div class="star">
-                <span class="material-symbols-rounded"> star </span>
-                <span class="star-title">New</span>
-              </div>
-              <div class="star-number">
-                <span> 13/17 </span>
-              </div>
-            </div>
-            <div class="container--main-section-rating_star__data">
-              <!-- avatar 1 -->
-              <div class="container--main-section-rating_star__data_card">
-                <div
-                  class="container--main-section-rating_star__data_card_header"
-                >
-                  <img src="./images/avatar-1.png" alt="avatar-image" />
-                  <div>
-                    <h4>Irene Sacchi</h4>
-                    <p>Java Team Lead</p>
-                  </div>
-                </div>
-                <div
-                  class="container--main-section-rating_star__data_card_body"
-                >
-                  <p>Java</p>
-                  <p>Developer</p>
-                  <p>.NET</p>
-                  <p>CSS</p>
-                </div>
-              </div>
-              <!-- avatar 2 -->
-              <div class="container--main-section-rating_star__data_card">
-                <div
-                  class="container--main-section-rating_star__data_card_header"
-                >
-                  <img src="./images/avatar-2.png" alt="avatar-image" />
-                  <div>
-                    <h4>Irene Sacchi</h4>
-                    <p>Senior Java Ingeneer</p>
-                  </div>
-                </div>
-                <div
-                  class="container--main-section-rating_star__data_card_body"
-                >
-                  <p>React JS</p>
-                  <p>Developer</p>
-                  <p>CSS</p>
-                </div>
-              </div>
-              <!-- avatar 3 -->
-              <div class="container--main-section-rating_star__data_card">
-                <div
-                  class="container--main-section-rating_star__data_card_header"
-                >
-                  <img src="./images/avatar-3.png" alt="avatar-image" />
-                  <div>
-                    <h4>Irene Sacchi</h4>
-                    <p>Java Developer</p>
-                  </div>
-                </div>
-                <div
-                  class="container--main-section-rating_star__data_card_body"
-                >
-                  <p>Java</p>
-                  <p>Developer</p>
-                  <p>.NET</p>
-                </div>
-              </div>
-              <!--avatar 4  -->
-              <div class="container--main-section-rating_star__data_card">
-                <div
-                  class="container--main-section-rating_star__data_card_header"
-                >
-                  <img src="./images/avatar-4.png" alt="avatar-image" />
-                  <div>
-                    <h4>Cryii Tim</h4>
-                    <p>Junior Java Developer</p>
-                  </div>
-                </div>
-                <div
-                  class="container--main-section-rating_star__data_card_body"
-                >
-                  <p>cross-platform</p>
-                  <p>React</p>
-                  <p>Backend</p>
-                </div>
-              </div>
+      </div>
+      <div class="item item-3">
+        <div class="container--main-section">
+          <!-- heading section -->
+          <div class="container--main-section_heading">
+            <h2>Senior Java Developer</h2>
+            <div class="container--main-section_heading_icon">
+              <a href="#">
+                <span class="material-symbols-outlined delete-icon">
+                  delete
+                </span>
+              </a>
+              <a href="#"
+                ><span class="material-symbols-outlined edit-icon">
+                  edit
+                </span></a
+              >
 
-              <!--avatar 5  -->
-              <div class="container--main-section-rating_star__data_card">
-                <div
-                  class="container--main-section-rating_star__data_card_header"
-                >
-                  <img src="./images/avatar-5.png" alt="avatar-image" />
-                  <div>
-                    <h4>Erik Dawson</h4>
-                    <p>Java Team Lead</p>
-                  </div>
-                </div>
-                <div
-                  class="container--main-section-rating_star__data_card_body"
-                >
-                  <p>Laravel</p>
-                  <p>Developer</p>
-                  <p>Angular</p>
-                </div>
-              </div>
-              <!--avatar 6  -->
-              <div class="container--main-section-rating_star__data_card">
-                <div
-                  class="container--main-section-rating_star__data_card_header"
-                >
-                  <img src="./images/avatar-6.png" alt="avatar-image" />
-                  <div>
-                    <h4>Wendy Haward</h4>
-                    <p>Java Developer</p>
-                  </div>
-                </div>
+              <div class="container--main-section_icon2">
+                <a href="#">
+                  <span class="material-symbols-outlined add-person-icon">
+                    person_add
+                  </span>
+                </a>
+
+                <p>Invite candidate</p>
               </div>
             </div>
           </div>
-          <div class="container--main-section-data_item2">
-            <div class="container--main-section-rating_short-listed">
-              <div class="shortlisted">
-                <span class="material-symbols-rounded"> check_box </span>
-                <span class="star-title">shortlisted</span>
+          <div
+            class="container--main-section--job-title_intro container--job-title_intro"
+          >
+            <a href="#" class="Kanban-selected"> <h4>Kanban board</h4> </a
+            ><a href="#" class="Kanban-text">
+              <h4>Job info</h4>
+            </a>
+          </div>
+          <hr class="container--main-section--job-title_intro_line" />
+          <!-- end -->
+
+          <div class="container--main-section-data">
+            <div class="container--main-section-data_item1">
+              <!-- new section part 1 -->
+              <!-- ////////////////////////////////////////////// -->
+              <!-- <div class="container--main-section-rating_star">
+                <div class="star">
+                  <span class="material-symbols-rounded"> star </span>
+                  <span class="star-title">New</span>
+                </div>
+                <div class="star-number">
+                  <span> 13/17 </span>
+                </div>
+              </div> -->
+              <!-- ////////////////////////////////////////////// -->
+
+              <div class="test1">
+                <div class="test11">
+                  <span class="material-symbols-rounded"> star </span>
+                  <span class="star-title">New</span>
+                </div>
+                <div class="test111">13/17</div>
               </div>
-              <div class="shortlisted-number">
-                <span> 5/10 </span>
+
+              <div class="container--main-section-rating_star__data">
+                <!-- avatar 1 -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-1.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Irene Sacchi</h4>
+                      <p>Java Team Lead</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>Java</p>
+                    <p>Developer</p>
+                    <p>.NET</p>
+                    <p>CSS</p>
+                  </div>
+                </div>
+                <!-- avatar 2 -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-2.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Irene Sacchi</h4>
+                      <p>Senior Java Ingeneer</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>React JS</p>
+                    <p>Developer</p>
+                    <p>CSS</p>
+                  </div>
+                </div>
+                <!-- avatar 3 -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-3.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Irene Sacchi</h4>
+                      <p>Java Developer</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>Java</p>
+                    <p>Developer</p>
+                    <p>.NET</p>
+                  </div>
+                </div>
+                <!--avatar 4  -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-4.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Cryii Tim</h4>
+                      <p>Junior Java Developer</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>cross-platform</p>
+                    <p>React</p>
+                    <p>Backend</p>
+                  </div>
+                </div>
+
+                <!--avatar 5  -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-5.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Erik Dawson</h4>
+                      <p>Java Team Lead</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>Laravel</p>
+                    <p>Developer</p>
+                    <p>Angular</p>
+                  </div>
+                </div>
+                <!--avatar 6  -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-6.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Wendy Haward</h4>
+                      <p>Java Developer</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="container--main-section-data_item3">
-            <div class="container--main-section-rating_contact">
-              <div class="interviewed">
-                <i class="fa-solid fa-user-check" style="color: #ffffff"></i>
 
-                <span class="star-title">Interviewed</span>
+            <!-- second part 2 shortlisted -->
+            <div class="container--main-section-data_item2">
+              <!-- <div class="container--main-section-rating_short-listed">
+                <div class="shortlisted">
+                  <span class="material-symbols-rounded"> check_box </span>
+                  <span class="star-title">shortlisted</span>
+                </div>
+                <div class="shortlisted-number">
+                  <span> 5/10 </span>
+                </div>
+              </div> -->
+
+              <div class="test2">
+                <div class="test21">
+                  <span class="material-symbols-rounded"> check_box </span>
+                  <span class="star-title">shortlisted</span>
+                </div>
+                <div class="test211">5/10</div>
               </div>
-              <div class="interviewed-number">
-                <span> 3/5 </span>
+
+              <!-- testing -->
+
+              <!-- shortlisted part -->
+              <div class="container--main-section-rating_star__data">
+                <!-- avatar 1 -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-7.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Irene Sacchi</h4>
+                      <p>Senior Java Developer</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>Java</p>
+                    <p>.NET</p>
+                    <p>CSS</p>
+                  </div>
+                </div>
+                <!-- avatar 2 -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-8.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Harry Hamilton</h4>
+                      <p>Senior Java Lead</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>Developer</p>
+                    <p>.NET</p>
+                    <p>CSS</p>
+                  </div>
+                </div>
+                <!-- avatar 3 -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-9.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>ArthurSimmmons</h4>
+                      <p>Front-end Developer</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>Laravel</p>
+                    <p>Developer</p>
+                    <p>Angular</p>
+                  </div>
+                </div>
+                <!--avatar 4  -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-10.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Leslie Mccoy</h4>
+                      <p>Front-end Developer</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>Java</p>
+                    <p>Developer</p>
+                    <p>.NET</p>
+                    <p>CSS</p>
+                  </div>
+                </div>
+
+                <!--avatar 5  -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-12.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Jay Elvis</h4>
+                      <p>Front-end Developer</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>Java</p>
+                    <p>Developer</p>
+                    <p>CSS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- third part 3 Interviewed -->
+            <div class="container--main-section-data_item3">
+              <!-- <div class="container--main-section-rating_contact">
+                <div class="interviewed">
+                  <i class="fa-solid fa-user-check" style="color: #ffffff"></i>
+
+                  <span class="star-title">Interviewed</span>
+                </div>
+                <div class="interviewed-number">
+                  <span> 3/5 </span>
+                </div>
+              </div> -->
+
+              <div class="test3">
+                <div class="test31">
+                  <i class="fa-solid fa-user-check" style="color: #ffffff"></i>
+
+                  <span class="star-title">Interviewed</span>
+                </div>
+                <div class="test311">3/5</div>
+              </div>
+
+              <!-- Interviewed part -->
+              <div class="container--main-section-rating_star__data">
+                <!-- avatar 1 -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-13.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Wolf</h4>
+                      <p>Java Team Lead</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>Laravel</p>
+                    <p>Developer</p>
+                    <p>Angular</p>
+                  </div>
+                </div>
+                <!-- avatar 2 -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-14.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Gloria Cooper</h4>
+                      <p>Java Team Lead</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>Java</p>
+                    <p>Developer</p>
+                    <p>.NET</p>
+                    <p>CSS</p>
+                  </div>
+                </div>
+                <!-- avatar 3 -->
+                <div class="container--main-section-rating_star__data_card">
+                  <div
+                    class="container--main-section-rating_star__data_card_header"
+                  >
+                    <img src="./images/avatar-15.png" alt="avatar-image" />
+                    <div
+                      class="container--main-section-rating_star__data_card_title"
+                    >
+                      <h4>Theresa Miles</h4>
+                      <p>Java Team Lead</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container--main-section-rating_star__data_card_body"
+                  >
+                    <p>React JS</p>
+                    <p>Developer</p>
+                    <p>CSS</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
-    <script
-      src="https://kit.fontawesome.com/7cc34fdf08.js"
-      crossorigin="anonymous"
-    ></script>
+    </div>
+    <!-- </div> -->
   </body>
+  <script
+    src="https://kit.fontawesome.com/7cc34fdf08.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./index.js"></script>
 </html>
