@@ -12,7 +12,6 @@
 }
 
 body {
-  /* background-color: antiquewhite; */
   margin: 0;
   padding: 0;
 }
@@ -20,17 +19,11 @@ body {
 /*/////////////////// container /////////////////// */
 /* /////////////////////////////////////////////// */
 .container {
-  /* background-color: #a52a2a80; */
   --min: 10ch;
-  /* --gap: 1rem; */
-
   display: flex;
   flex-wrap: wrap;
   gap: var(--gap);
 }
-/* .main-menu-icon {
-  display: none;
-} */
 .container > * {
   flex: 1 1 var(--min);
 }
@@ -38,7 +31,9 @@ body {
 /* //////////////////////////////////////////////// */
 /* Navbar*/
 /* /////////////////////////////////////////////// */
-
+.main-menu-icon {
+  display: none;
+}
 /* //////////////////////////////////////////////// */
 /* menu  */
 /* /////////////////////////////////////////////// */
@@ -768,10 +763,10 @@ body {
     margin-bottom: 23vh;
   }
   .container--job-title {
-    width: 77vw;
+    width: 80vw;
   }
   .container--job-title_body button {
-    margin: 25vh auto 0;
+    margin: 20vh auto 0;
   }
   .selected {
     border-right: 7px #687cd3 solid;
@@ -856,7 +851,7 @@ body {
 
   .Kanban-selected::after {
     width: 13%;
-    top: 14.1rem;
+    top: 15.5rem;
     height: 4px;
   }
   /* new section part */
@@ -905,6 +900,10 @@ body {
     margin-bottom: 13%;
   }
 
+  .container--menu_icon {
+    background-color: white;
+  }
+
   nav {
     position: absolute;
     /* background-color: burlywood;
@@ -916,6 +915,10 @@ body {
     padding-left: 10px;
   }
 
+  .main-menu-icon {
+    display: block;
+  }
+
   .no-menu-icon {
     display: none;
   }
@@ -924,5 +927,8 @@ body {
     /* width: 0; */
     /* overflow: visible; */
     display: none;
+  }
+  .show-menu {
+    display: block;
   }
 }
