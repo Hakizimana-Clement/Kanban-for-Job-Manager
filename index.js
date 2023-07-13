@@ -1,30 +1,27 @@
-const iconMenu = document.querySelector(".main-menu-icon");
-const allMenuClass = document.querySelector(".menu");
-const test = document.querySelector(".container--job-title_heading");
-// sidebar and container
-const main = document.querySelector(".menu-container_main");
-const allIcon = document.querySelector(".menu-container");
+// select
+const menuButton = document.body.querySelector(".main-menu-icon");
+const menu = document.body.querySelector(".menu"); // this no working 100%
+const menuSidebar = document.body.querySelector(".menu-containerr");
+const jobContent = document.body.querySelector(".menu-container-main");
+const mainContent = document.body.querySelector(".container");
 
-// allMenuClass.classList.remove("class", allMenuClass);
-iconMenu.addEventListener("click", function () {
-  console.log("I was clicked");
-
-  // if (allMenuClass.classList.contains("menu")) {
-  //   console.log("yes");
-  // }
-  // test.classList.toggle("test10");
-  // // allMenuClass.classList.toggle(allIcon);
-  // main.classList.toggle("menu-containerr");
-  // // allIcon.classList.toggle("test10");
-  if (iconMenu.classList.contains("main-menu-icon")) {
-    console.log("yes");
-
-    menu.classList.remove("showMenu");
-    // closeIcon.style.display = "none";
-    // menuIcon.style.display = "block";
-  } else {
-    menu.classList.add("showMenu");
-    // closeIcon.style.display = "block";
-    // menuIcon.style.display = "none";
+// toggle menu
+const toggleMenu = () => {
+  if (menuButton.classList.contains("main-menu-icon")) {
+    menuSidebar.classList.toggle("no-menu");
+    jobContent.classList.toggle("no-menu");
+    mainContent.classList.toggle("show-container");
   }
-});
+};
+// click event
+
+menuButton.addEventListener("click", toggleMenu);
+// menuButton.addEventListener("click", function () {
+//   if (menuButton.classList.contains("main-menu-icon")) {
+//     menuSidebar.classList.toggle("no-menu");
+//     jobContent.classList.toggle("no-menu");
+//     mainContent.classList.toggle("show-container");
+//   } else {
+//     console.log("No");
+//   }
+// });
