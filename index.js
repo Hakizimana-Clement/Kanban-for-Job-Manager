@@ -1,6 +1,6 @@
 // select
 const menuButton = document.body.querySelector(".main-menu-icon");
-const menuSidebar = document.body.querySelector(".container--job-title");
+const menuSidebar = document.body.querySelector(".container--job-content");
 const jobContent = document.body.querySelector(".menu-container");
 const mainContent = document.body.querySelector(".container");
 
