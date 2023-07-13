@@ -23,7 +23,7 @@ To use the Kanban for job manager website locally, follow these steps:
 
 1. Clone the repository: git clone https://github.com/Hakizimana-Clement/Kanban-for-Job-Manager.git
 
-2. Navigate to the project directory: cd modern-art-gallery
+2. Navigate to the project directory: cd Kanban-for-job-manager
 
 3. Open the home page (index.html) in a web browser
 
