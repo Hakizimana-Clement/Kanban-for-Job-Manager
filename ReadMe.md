@@ -19,7 +19,7 @@ The resource is [Kanban for job manager by Roman Cherepivskiy](https://dribbble.
 
 ## Installation
 
-To use the Modern Art Gallery website locally, follow these steps:
+To use the Kanban for job manager website locally, follow these steps:
 
 1. Clone the repository: git clone https://github.com/Hakizimana-Clement/Kanban-for-Job-Manager.git
 
